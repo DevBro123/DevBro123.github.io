@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+html {
+    height: 100%;
+    --dot-bg: rgb(8, 8, 8);
+    --dot-color: rgb(148, 201, 193);
+    --dot-size: 1pt;
+    --dot-space: 25pt;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+}
+
+.pages {
+    width: fit-content;
+    padding: 40pt;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(70, 70, 70, 0.1);
+    backdrop-filter: blur(1.5pt);
+    border-radius: 10pt;
+    -webkit-border-radius: 10pt;
+    -moz-border-radius: 10pt;
+    -ms-border-radius: 10pt;
+    -o-border-radius: 10pt;
+}
+
+a {
+    margin-top: 40pt;
+    text-align: center;
+    text-decoration: none;
+    --bg-color: rgb(255, 255, 255);
+    --border-width: 1pt;
+    border: var(--border-width) solid var(--bg-color);
+    border-radius: 10pt;
+    color: var(--bg-color);
+    font-family: Comfortaa;
+    font-size: 5rem;
+    padding: 10pt;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+    -webkit-border-radius: 10pt;
+    -moz-border-radius: 10pt;
+    -ms-border-radius: 10pt;
+    -o-border-radius: 10pt;
+}
+
+a:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+a:first-child {
+    margin-top: 0;
+}
