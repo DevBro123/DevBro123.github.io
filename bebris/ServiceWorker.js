@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Tetris-1.0";
+const cacheName = "Bebris-Bebris-1.3";
 const contentToCache = [
     "Build/Build.loader.js",
     "Build/Build.framework.js",
