@@ -1,4 +1,4 @@
-const cacheName = "Dordle-Dordle-1.0";
+const cacheName = "Dordle-Dordle-1.2";
 const contentToCache = [
     "Build/Build.loader.js",
     "Build/Build.framework.js",
