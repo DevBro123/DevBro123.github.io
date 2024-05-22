@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Pong-1.0";
 const contentToCache = [
     "Build/fong.loader.js",
-    "Build/fong.framework.js.br",
-    "Build/fong.data.br",
-    "Build/fong.wasm.br",
+    "Build/fong.framework.js.gz",
+    "Build/fong.data.gz",
+    "Build/fong.wasm.gz",
     "TemplateData/style.css"
 
 ];
